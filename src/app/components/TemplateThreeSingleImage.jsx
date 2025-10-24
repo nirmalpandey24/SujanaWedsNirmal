@@ -13,9 +13,9 @@ export default function TemplateThreeSingleImage() {
 
   // Replace these with your actual image paths
   const images = [
-    '/images/nepali/first.jpg',
-    '/images/nepali/second.jpg',
-    '/images/nepali/third.jpg',
+    '/images/nepali/nirmal1.jpg',
+    '/images/nepali/nirmal2.jpg',
+    // '/images/nepali/nirmal3.jpg',
   ];
 
   // Auto-advance the slider
