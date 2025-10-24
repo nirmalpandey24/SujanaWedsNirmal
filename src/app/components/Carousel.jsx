@@ -8,19 +8,19 @@ const Carousel = () => {
   // Three separate arrays of images for each carousel
   const carousels = [
     [
-      'https://images.unsplash.com/photo-1523381210434-271e8be1f52b?q=80&w=400&h=400',
-      'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=400&h=400',
-      'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=400&h=400',
+      '/images/nepali/1.jpg',
+      '/images/nepali/2.jpg',
+      '/images/nepali/3.jpg',
     ],
     [
-      'https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&h=400',
-      'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=400&h=400',
-      'https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=400&h=400',
+      '/images/nepali/wed1.jpg',
+      '/images/nepali/wed2.jpg',
+      // '/images/nepali/wed3.jpg',
     ],
     [
-      'https://images.unsplash.com/photo-1519085360759-3247117f0f78?q=80&w=400&h=400',
-      'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=400&h=400',
-      'https://images.unsplash.com/photo-1517841905801-f9d3c0bb4a24?q=80&w=400&h=400',
+      '/images/nepali/wed4.jpg',
+      '/images/nepali/wed5.jpg',
+      // '/images/nepali/wed6.jpg',
     ]
   ];
 

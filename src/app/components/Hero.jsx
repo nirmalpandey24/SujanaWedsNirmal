@@ -53,7 +53,7 @@ const Hero = () => {
         </div>
 
         <div className="absolute bottom-16 lg:bottom-4 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center">
-          <p className="text-nepaliredsecond text-sm lg:text-xl font-light">10 • 10 • 2025</p>
+          <p className="text-nepaliredsecond text-sm lg:text-xl font-light">19 • 05 • 2082</p>
         </div>
       </div>
     </div>

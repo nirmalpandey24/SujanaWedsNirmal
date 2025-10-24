@@ -46,7 +46,7 @@ const Countdown = () => {
             married!
           </p>
           <p className="text-base text-white mb-7 md:mb-20 leading-relaxed text-center md:text-left">
-            We are so grateful to have celebrated our special day with you.
+           
             Here's how long we've been happily married:
           </p>
           
