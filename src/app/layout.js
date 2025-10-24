@@ -1,4 +1,4 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Cormorant_Garamond, Fleur_De_Leah } from "next/font/google";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -6,9 +6,16 @@ const geistSans = Geist({
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+const cormorantGaramond = Cormorant_Garamond({
+  weight: ['400', '600', '700'],
+  subsets: ['latin'],
+  variable: '--font-cormorant-garamond',
+});
+
+const fleurDeLeah = Fleur_De_Leah({
+  weight: '400',
+  subsets: ['latin'],
+  variable: '--font-fleur-de-leah',
 });
 
 export const metadata = {
@@ -20,7 +27,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${cormorantGaramond.variable} ${fleurDeLeah.variable} antialiased`}
       >
         {children}
       </body>
