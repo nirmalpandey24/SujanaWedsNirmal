@@ -25,9 +25,9 @@ const Footer = () => {
       </div>
       
       <div className="mt-10 text-sm text-neutral-50">
-        <p className="font-['Geist'] text-neutral-50 text-xs md:text-base">
+        {/* <p className="font-['Geist'] text-neutral-50 text-xs md:text-base">
           with <span className="text-pink-500">💞</span>, emantara
-        </p>
+        </p> */}
         <div className="flex items-center justify-center mt-2" style={{ fontFamily: "'Geist', serif" }}>
           <p
             href="#" 
